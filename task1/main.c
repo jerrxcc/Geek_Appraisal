@@ -8,12 +8,12 @@ int main()
     double dy = 0;
     double x = 0;
 
-    printf("请输入a的值：");
+    printf("Please enter the value of a：");
     scanf("%lf", &a);
 
     y = a;
 
-    printf("初始值为：%lf\n", y);
+    printf("The initial value is：%lf\n", y);
 
     while (1)
     {
@@ -29,7 +29,7 @@ int main()
         }
     }
 
-    printf("最终定态（收敛值）为：%lf\n", y);
+    printf("The final stationary state (convergence value) is", y);
 
     return 0;
 }
