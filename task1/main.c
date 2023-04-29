@@ -29,7 +29,7 @@ int main()
         }
     }
 
-    printf("The final stationary state (convergence value) is", y);
+    printf("The final stationary state (convergence value) is %lf\n", y);
 
     return 0;
 }
